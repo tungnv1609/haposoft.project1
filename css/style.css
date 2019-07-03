@@ -9,7 +9,7 @@ a {
 }
 
 li {
-    list-style-type: none;
+    section-list-style-type: none;
 }
 
 button {
@@ -19,7 +19,7 @@ button {
     background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     color: #FFFFFF;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 1.33px;
     line-height: 21px;
@@ -53,7 +53,7 @@ button {
 
 .about-us a {
     color: #283238;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -62,13 +62,13 @@ button {
 .sign-in {
     border: 2px solid #8bc34a;
     width: 82px;
-    height: 36px;
+    height: 30px;
     border-radius: 100px;
     position: absolute;
     bottom: 796px;
     left: 78.42%;
     text-align: center;
-    line-height: 36px;
+    line-height: 30px;
     text-transform: uppercase;
 }
 
@@ -88,8 +88,8 @@ button {
     left: 30.47%;
     top: 43%;
     color: #283238;
-    font-family: Roboto;
-    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing: -0.07px;
 }
@@ -111,8 +111,8 @@ button {
     left: 47%;
     top: 43%;
     color: #283238;
-    font-family: Roboto;
-    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing: -0.07px;
 }
@@ -130,8 +130,8 @@ button {
     left: 62%;
     top: 43%;
     color: #283238;
-    font-family: Roboto;
-    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing: -0.07px;
     text-align: center;
@@ -148,7 +148,7 @@ button {
     bottom: 314px;
     left: 35%;
     color: #283238;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: italic;
     letter-spacing: -0.03px;
@@ -156,8 +156,8 @@ button {
 }
 
 .button-start-top {
-    width: 195px;
-    height: 50px;
+    width: 168px;
+    height: 42px;
     position: absolute;
     bottom: 27%;
     left: 45%;
@@ -174,7 +174,7 @@ button {
 
 .section-learnt {
     width: 1139.79px;
-    height: 571px;
+    height: 500px;
     margin: 0px auto;
     position: relative;
 }
@@ -194,8 +194,8 @@ button {
 }
 
 .section-learnt .container-right .icon-bookmark {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 14px;
 }
@@ -204,7 +204,7 @@ button {
     margin-left: 54px;
     margin-bottom: 15px;
     color: #444444;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 300;
     letter-spacing: -0.09px;
@@ -216,8 +216,8 @@ button {
 }
 
 .button-start-learnt {
-    width: 195px;
-    height: 50px;
+    width: 168px;
+    height: 42px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -227,20 +227,19 @@ button {
 /*--------------------------------*/
 
 
-/*------------report--------------------*/
+/*------------member--------------------*/
 
 
 /*--------------------------------*/
 
-.report {
+.section-report {
     width: 1139.79px;
     height: 370px;
     margin: 100px auto;
     position: relative;
-    border-top: 1px solid red;
 }
 
-.report .report-left {
+.section-report .report-left {
     width: 555px;
     height: 100%;
     position: absolute;
@@ -248,37 +247,37 @@ button {
     left: 0;
 }
 
-.report .report-left h1 {
+.section-report .report-left h1 {
     margin-left: 54px;
     margin-bottom: 15px;
     color: #444444;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 300;
     letter-spacing: -0.09px;
     line-height: 63px;
 }
 
-.report .report-left p {
+.section-report .report-left p {
     margin-top: 25px;
 }
 
-.report .report-left .icon-write {
-    width: 36px;
-    height: 36px;
+.section-report .report-left .icon-write {
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 14px;
 }
 
 .button-start-report {
-    width: 195px;
-    height: 50px;
+    width: 168px;
+    height: 42px;
     position: absolute;
     bottom: 2.09%;
     left: 0%;
 }
 
-.report .report-right .image-report {
+.section-report .report-right .image-report {
     width: 555px;
     height: 100%;
     margin-left: 30.48px;
@@ -290,14 +289,469 @@ button {
 /*------------------------------*/
 
 
-/*-----------list function-------------------*/
+/*-----------section-list function-------------------*/
 
 
 /*------------------------------*/
 
-.list-function {
+.section-list {
     width: 100%;
-    height: 322px;
+    height: 270px;
     background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-    margin-top: 100px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.daily-member {
+    padding-top: 100px;
+}
+
+
+/*function1*/
+
+
+/*----------*/
+
+
+/*----------*/
+
+.function1 {
+    width: 90px;
+    height: 103px;
+    position: absolute;
+    top: 68.75px;
+    left: 280px;
+}
+
+.function1 .circle-large {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.function1 .circle-small {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7CB342;
+    bottom: 0;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.function1 .circle-large .icon-write {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+
+
+/*function2*/
+
+
+/*----------*/
+
+
+/*----------*/
+
+.function2 {
+    width: 90px;
+    height: 103px;
+    position: absolute;
+    top: 68.75px;
+    left: 453px;
+}
+
+.function2 .circle-large {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.function2 .circle-small {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7CB342;
+    bottom: 0;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.function2 .circle-large .icon-write {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+
+
+/*function3*/
+
+
+/*----------*/
+
+
+/*----------*/
+
+.function3 {
+    width: 90px;
+    height: 103px;
+    position: absolute;
+    top: 68.75px;
+    left: 625px;
+}
+
+.function3 .circle-large {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.function3 .circle-small {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7CB342;
+    bottom: 0;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.function3 .circle-large .icon-write {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+
+
+/*function4*/
+
+
+/*----------*/
+
+
+/*----------*/
+
+.function4 {
+    width: 90px;
+    height: 103px;
+    position: absolute;
+    top: 68.75px;
+    left: 797px;
+}
+
+.function4 .circle-large {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.function4 .circle-small {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7CB342;
+    bottom: 0;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.function4 .circle-large .icon-write {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+
+
+/*function5*/
+
+
+/*----------*/
+
+
+/*----------*/
+
+.function5 {
+    width: 90px;
+    height: 103px;
+    position: absolute;
+    top: 68.75px;
+    right: 280px;
+}
+
+.function5 .circle-large {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.function5 .circle-small {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #7CB342;
+    bottom: 0;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.function5 .circle-large .icon-write {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+
+
+/* .text-section-list {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+} */
+
+.section-list .text-daily {
+    position: absolute;
+    top: 200px;
+    left: 297px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.section-list .text-write {
+    position: absolute;
+    top: 200px;
+    left: 475px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.section-list .text-member {
+    position: absolute;
+    top: 200px;
+    left: 644px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.section-list .text-customer {
+    position: absolute;
+    top: 200px;
+    left: 817px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.section-list .text-projects {
+    position: absolute;
+    top: 200px;
+    left: 980px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+
+/*-----------------meber-----------------*/
+
+
+/*---------------------------------------*/
+
+
+/*---------------------------------------*/
+
+.section-member {
+    width: 1139.79px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    border: 1px solid red;
+}
+
+.section-member .container-left {
+    width: 46%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-left .icon-write {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.section-member .container-left h1 {
+    margin-left: 54px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    margin-bottom: 30px;
+    line-height: 63px;
+}
+
+.check-box1 {
+    position: absolute;
+    top: 136px;
+    left: 0;
+}
+
+.check-box2 {
+    position: absolute;
+    top: 215px;
+    left: 0;
+}
+
+.check-box3 {
+    position: absolute;
+    top: 293px;
+    left: 0;
+}
+
+.section-member .container-left p {
+    margin-top: 25px;
+    text-indent: 30px;
+}
+
+.button-start-member {
+    width: 168px;
+    height: 42px;
+    position: absolute;
+    bottom: 14%;
+    left: 0%;
+}
+
+.section-member .container-right {
+    width: 46%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    right: 5%;
+}
+
+
+/*------------customer------------------*/
+
+
+/*------------customer------------------*/
+
+
+/*------------customer------------------*/
+
+.section-customer {
+    width: 1139.79px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    border: 1px solid blue;
+}
+
+.section-customer .image-report {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.customer-right {
+    width: 46%;
+    height: 100%;
+    background-color: #429321;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container-right .icon-smile {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.customer-right h1 {
+    position: absolute;
+    top: -7%;
+    left: -4%;
+    display: block;
+    margin-left: 54px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    margin-bottom: 30px;
+    line-height: 63px;
+}
+
+.customer-right span {
+    margin-top: 25px;
 }
