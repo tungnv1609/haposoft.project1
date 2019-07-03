@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+
+/*---------------------------------------*/
+
+
+/*---------------section top------------------------*/
+
+
+/*---------------------------------------*/
+
+.section-top {
+    width: 100%;
+    max-height: 875px;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-us {
+    position: absolute;
+    top: 1.11%;
+    left: 70%;
+}
+
+.about-us a {
+    color: #283238;
+    font-family: Roboto;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sign-in {
+    border: 2px solid #8bc34a;
+    width: 82px;
+    height: 36px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 796px;
+    left: 75.42%;
+    text-align: center;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.sign-in a {
+    color: #8bc34a;
+}
+
+.section-top img {
+    margin-top: 244px;
+    margin-left: 832px;
+}
+
+.icon-gift {
+    width: 96px;
+    height: 110px;
+    background-color: #8bc34a;
+    position: absolute;
+    left: 585px;
+    top: 374px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 190px;
+}
+
+.icon-clock {
+    width: 101px;
+    height: 110px;
+    background-color: #5c4ac3;
+    position: absolute;
+    left: 935px;
+    top: 374px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 190px;
+}
+
+.icon-like {
+    width: 141px;
+    height: 110px;
+    background-color: #c34ab9;
+    position: absolute;
+    left: 1194px;
+    top: 374px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 190px;
+}
+
+.lorem-text {
+    width: 569px;
+    height: 24px;
+    position: absolute;
+    bottom: 314px;
+    left: 676px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: -0.03px;
+    line-height: 24px;
+}
+
+.button-start-top {
+    width: 195px;
+    height: 50px;
+    position: absolute;
+    bottom: 233px;
+    left: 863px;
+}
+
+
+/*-----------------------------------------*/
+
+
+/*---------------section learn--------------------------*/
+
+
+/*-----------------------------------------*/
+
+.section-learnt {
+    width: 1139.79px;
+    height: 571px;
+    background-color: #429321;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-learnt .content-left img {
+    margin-top: 100px;
+    margin-right: 30.48px;
+}
+
+.section-learnt .content-right {
+    background-color: #c34ab9;
+    width: 555px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-learnt .content-right h1 {
+    margin-top: 100px;
+    margin-left: 54px;
+    margin-bottom: 15px;
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 63px;
+}
+
+.section-learnt .content-right p {
+    margin-top: 25px;
+}
