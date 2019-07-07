@@ -208,6 +208,7 @@ li {
 /*-----------------------------------------*/
 
 .section-learnt {
+    margin: 0 auto;
     width: 1920px;
     height: 571px;
     padding-top: 100px;
@@ -235,13 +236,6 @@ li {
     top: 0;
     right: 0;
 }
-
-
-/* .container-right .icon-bookmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
 
 .section-learnt .hapo-erp {
     margin-right: 30.48px;
@@ -278,7 +272,7 @@ li {
     background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: -100%;
+    bottom: 0;
     left: 0;
     cursor: pointer;
     color: #FFFFFF;
@@ -293,31 +287,56 @@ li {
 /*--------------------------------*/
 
 
-/*------------member--------------------*/
+/*------------section report--------------------*/
 
 
 /*--------------------------------*/
 
 .section-report {
-    width: 1139.79px;
-    height: 370px;
-    margin: 100px auto;
+    width: 1920px;
+    height: 571px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.section-report .container {
+    width: 1122px;
+    height: 371px;
+    margin: 0 auto;
     position: relative;
 }
 
-.section-report span {
-    font: italic;
-}
-
-.section-report .report-left {
-    width: 555px;
-    height: 100%;
+.section-report .container .container-left {
     position: absolute;
+    width: 44.8%;
+    height: 100%;
     top: 0;
     left: 0;
 }
 
-.section-report .report-left h1 {
+.section-report .container .container-right {
+    position: absolute;
+    width: 44.8%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.section-report .hapo-erp {
+    margin-left: 30.48px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.section-report .container-left .icon-write {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+}
+
+.section-report .container-left h1 {
     margin-left: 54px;
     margin-bottom: 15px;
     color: #444444;
@@ -328,19 +347,12 @@ li {
     line-height: 63px;
 }
 
-.section-report .report-left p {
+.section-report .container-left p {
     margin-top: 25px;
     text-align: justify;
 }
 
-.section-report .report-left .icon-write {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 14px;
-}
-
-.section-report #buttonReport {
+.section-report #buttonStart {
     width: 195px;
     height: 50px;
     border-radius: 100px;
@@ -356,14 +368,6 @@ li {
     letter-spacing: 1.33px;
     line-height: 21px;
     text-transform: uppercase;
-}
-
-.section-report .report-right .image-report {
-    width: 555px;
-    height: 100%;
-    margin-left: 30.48px;
-    position: absolute;
-    right: 0;
 }
 
 
@@ -401,12 +405,12 @@ li {
 /*----------*/
 
 .function1 {
-    width: 109px;
-    height: 125.5px;
     position: absolute;
     top: 21.3%;
-    left: 280px;
-    background-color: #283238;
+    left: 389px;
+    width: 90px;
+    height: 103px;
+    position: absolute;
 }
 
 .function1 .circle-large {
@@ -455,7 +459,7 @@ li {
     height: 103px;
     position: absolute;
     top: 68.75px;
-    left: 453px;
+    left: 648px;
 }
 
 .function2 .circle-large {
@@ -504,7 +508,7 @@ li {
     height: 103px;
     position: absolute;
     top: 68.75px;
-    left: 625px;
+    left: 906px;
 }
 
 .function3 .circle-large {
@@ -553,7 +557,7 @@ li {
     height: 103px;
     position: absolute;
     top: 68.75px;
-    left: 797px;
+    left: 1164px;
 }
 
 .function4 .circle-large {
@@ -602,7 +606,7 @@ li {
     height: 103px;
     position: absolute;
     top: 68.75px;
-    right: 280px;
+    right: 389px;
 }
 
 .function5 .circle-large {
@@ -647,7 +651,7 @@ li {
 .section-list .text-daily {
     position: absolute;
     top: 200px;
-    left: 297px;
+    left: 407px;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -658,7 +662,7 @@ li {
 .section-list .text-write {
     position: absolute;
     top: 200px;
-    left: 475px;
+    left: 663px;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -669,7 +673,7 @@ li {
 .section-list .text-member {
     position: absolute;
     top: 200px;
-    left: 644px;
+    left: 916px;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -680,7 +684,7 @@ li {
 .section-list .text-customer {
     position: absolute;
     top: 200px;
-    left: 817px;
+    left: 1178px;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -691,7 +695,7 @@ li {
 .section-list .text-projects {
     position: absolute;
     top: 200px;
-    left: 980px;
+    left: 1459px;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -709,31 +713,50 @@ li {
 /*---------------------------------------*/
 
 .section-member {
-    width: 1139.79px;
-    height: 500px;
-    margin: 100px auto;
+    margin: 0 auto;
+    width: 1920px;
+    height: 571px;
+    padding-top: 100px;
+}
+
+.section-member .container {
+    width: 1122px;
+    height: 371px;
+    margin: 0 auto;
     position: relative;
 }
 
-.section-member .container-left {
-    width: 46%;
-    height: 100%;
+.section-member .container .container-left {
     position: absolute;
+    width: 44.8%;
+    height: 100%;
     top: 0;
     left: 0;
 }
 
-.container-left .icon-write {
+.section-member .container .container-right {
+    position: absolute;
+    width: 44.8%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.section-member .image-member {
+    margin-left: 30.48px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.container-left .icon-user {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 2%;
+    top: 4%;
 }
 
 .section-member .container-left h1 {
-    /* display: block;
-            position: absolute;
-            top: 0; */
     margin-left: 54px;
     color: #444444;
     font-family: 'Roboto', sans-serif;
@@ -767,12 +790,30 @@ li {
     text-indent: 30px;
 }
 
-.button-start-member {
-    width: 168px;
-    height: 42px;
+.section-member #buttonStart {
+    width: 195px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: 14%;
-    left: 0%;
+    bottom: -100px;
+    left: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.section-member .container-left {
+    width: 46%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .section-member .container-right {
@@ -793,66 +834,61 @@ li {
 /*------------customer------------------*/
 
 .section-customer {
-    width: 1139.79px;
-    height: 300px;
-    margin: 80px auto;
+    width: 1920px;
+    height: 571px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.section-customer .container {
+    width: 1122px;
+    height: 371px;
+    margin: 0 auto;
     position: relative;
 }
 
-.section-customer .image-report {
+.section-customer .container .container-left {
     position: absolute;
+    width: 44.8%;
+    height: 100%;
     top: 0;
-    left: 15%;
+    left: 0;
 }
 
-.customer-right {
-    width: 46%;
-    height: 100%;
+.section-customer .container .container-right {
     position: absolute;
+    width: 44.8%;
+    height: 100%;
     top: 0;
     right: 0;
 }
 
-.customer-right .icon-smile {
-    width: 36px;
-    height: 36px;
-    position: absolute;
-    top: 0;
+.section-customer .image-hapo {
+    margin-right: 30.48px;
+    float: left;
+    width: 100%;
+    height: 100%;
 }
 
-.customer-right h1 {
+.section-customer .container-right .icon-smile {
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: -5%;
-    left: -4%;
-    display: block;
-    margin-left: 14%;
+    top: 0px;
+}
+
+.section-customer .container-right h1 {
+    margin-left: 54px;
+    margin-bottom: 15px;
     color: #444444;
     font-family: 'Roboto', sans-serif;
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 300;
     letter-spacing: -0.09px;
-    margin-bottom: 30px;
-    line-height: 63px;
+    line-height: 34px;
 }
 
-.customer-right span {
-    display: block;
-    margin-top: 6%;
-    color: #283238;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: italic;
-    letter-spacing: -0.03px;
-    line-height: 19px;
-}
-
-.customer-right .icon-lock {
-    position: absolute;
-    top: 31%;
-    left: 0;
-}
-
-.customer-right p {
+.section-customer .container-right p {
     text-indent: 6%;
     margin-top: 4.5%;
     color: #283238;
@@ -862,16 +898,51 @@ li {
     text-align: justify;
 }
 
-.customer-right .icon-cup {
+.container-right span {
+    display: block;
+    margin-top: 6%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: -0.03px;
+    line-height: 0;
+}
+
+.container-right .icon-lock {
     position: absolute;
-    top: 56%;
+    top: 32%;
     left: 0;
 }
 
-.customer-right .icon-stats {
+.container-right .icon-cup {
     position: absolute;
-    top: 79%;
+    top: 51%;
     left: 0;
+}
+
+.container-right .icon-stats {
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+.section-customer #buttonStart {
+    width: 195px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 
@@ -884,82 +955,11 @@ li {
 /*-----------------our customer------------*/
 
 .section-our-customer {
-    width: 1366px;
-    height: 500px;
-    background-image: url('../images/Rectangle\ 3.jpg');
+    height: 544px;
+    width: 1920px;
+    background-image: url(../images/ourcustomer.jpg);
     background-size: 100% 100%;
-    background-position: center;
     margin: 0 auto;
-    position: relative;
-    padding-top: 3%;
-    color: #FFFFFF;
-    font-family: Roboto;
-    letter-spacing: -0.09px;
-    text-align: center;
-}
-
-.section-our-customer ul li {
-    float: left;
-    margin-left: 82px;
-    margin-top: 20px;
-}
-
-.section-our-customer .customer1,
-.customer2,
-.customer3,
-.customer4,
-.customer5,
-.customer6,
-.customer7,
-.customer8 {
-    margin-top: 20px;
-}
-
-.section-our-customer .text6699 {
-    width: 60%;
-    height: 30%;
-    margin: 220px auto;
-    position: relative;
-}
-
-.text6699 .quote-left {
-    position: absolute;
-    height: 73px;
-    width: 72px;
-    opacity: 0.3;
-    top: -28px;
-    left: 8px;
-    font-size: 60px;
-    text-align: center;
-    line-height: 73px;
-}
-
-.text6699 .quote-right {
-    position: absolute;
-    height: 73px;
-    width: 72px;
-    opacity: 0.3;
-    bottom: -28px;
-    right: 8px;
-    font-size: 60px;
-    text-align: center;
-    line-height: 73px;
-}
-
-.text6699 .text {
-    position: absolute;
-    margin-left: 85px;
-    margin-top: 13px;
-    width: 650px;
-    height: 100px;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: -0.03px;
-    line-height: 30px;
-    text-align: justify;
-    opacity: .5;
 }
 
 
@@ -972,21 +972,50 @@ li {
 /*-----------project--------------*/
 
 .section-project {
-    width: 1139.79px;
-    height: 370px;
-    margin: 100px auto;
+    width: 1920px;
+    height: 571px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.section-project .container {
+    width: 1122px;
+    height: 371px;
+    margin: 0 auto;
     position: relative;
 }
 
-.section-project .project-left {
-    width: 555px;
-    height: 100%;
+.section-project .container .container-left {
     position: absolute;
+    width: 44.8%;
+    height: 100%;
     top: 0;
     left: 0;
 }
 
-.section-project .project-left h1 {
+.section-project .container .container-right {
+    position: absolute;
+    width: 44.8%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.section-project .hapo-erp {
+    margin-left: 30.48px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.section-project .container-left .icon-write {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+}
+
+.section-project .container-left h1 {
     margin-left: 54px;
     margin-bottom: 15px;
     color: #444444;
@@ -995,34 +1024,29 @@ li {
     font-weight: 300;
     letter-spacing: -0.09px;
     line-height: 63px;
-    text-transform: uppercase;
 }
 
-.section-project .project-left p {
+.section-project .container-left p {
     margin-top: 25px;
+    text-align: justify;
 }
 
-.section-project .project-left .icon-write {
-    width: 30px;
-    height: 30px;
+.section-project #buttonStart {
+    width: 195px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 14px;
-}
-
-.button-start-project {
-    width: 168px;
-    height: 42px;
-    position: absolute;
-    bottom: 2.09%;
-    left: 0%;
-}
-
-.section-project .project-right .image-project {
-    width: 555px;
-    height: 100%;
-    margin-left: 30.48px;
-    position: absolute;
-    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 
@@ -1035,8 +1059,8 @@ li {
 /*----------------footer----------------*/
 
 .footer {
-    width: 1366px;
-    height: 188px;
+    width: 1920px;
+    height: 180px;
     border: 1px solid #ECEFF1;
     background-color: #39474E;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
@@ -1050,7 +1074,7 @@ li {
 
 .footer ul li {
     float: left;
-    margin-left: 40px;
+    margin-left: 90px;
 }
 
 .footer .image-hapo {
